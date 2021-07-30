@@ -4,14 +4,16 @@ import './App.css';
 // import {Layout} from './Layout/Layout'
 // import {ToggleComps} from './ToggleComps/ToggleComps';
 // import {EMICalc} from './EMICalc/EMICalc'
-import {Codepaino} from './Codepaino/Codepaino'
+// import {Codepaino} from './Codepaino/Codepaino'
 import "bootstrap/dist/css/bootstrap.min.css";
-import {Card ,Row,Col} from "react-bootstrap"
-import {AudioPlayer} from "../src/Codepaino/AudioPlayer"
+// import {Card ,Row,Col} from "react-bootstrap"
+// import {AudioPlayer} from "../src/Codepaino/AudioPlayer"
+import {EmpList} from "./ReducerEmployee/EmpList"
 function App() {
   return (
     <div  className="APP">
-      
+      <EmpList/>
+{/*       
       <Card className="A">
       <Row>
         <Col md={4}>
@@ -30,7 +32,7 @@ function App() {
                  
       </Row>
       </Card>
-      <AudioPlayer/>
+      <AudioPlayer/> */}
       {/* <EMICalc/> */}
     </div>
   );
