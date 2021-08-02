@@ -5,16 +5,22 @@ import './App.css';
 // import {ToggleComps} from './ToggleComps/ToggleComps';
 // import {EMICalc} from './EMICalc/EMICalc'
 // import {Codepaino} from './Codepaino/Codepaino'
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 // import {Card ,Row,Col} from "react-bootstrap"
 // import {AudioPlayer} from "../src/Codepaino/AudioPlayer"
-import {EmpList} from "./ReducerEmployee/EmpList"
+// import {Counter } from "./Component/Counter"
+// import {EmpList} from "./ReducerEmployee/EmpList"
+import {Tabsmanger} from "./Tabs manager/Tabsmanger"
 function App() {
   return (
     <div  className="APP">
-      <EmpList/>
-{/*       
-      <Card className="A">
+      <Tabsmanger/>
+      {/* <Counter/>   */}
+     
+      {/* <AudioPlayer/> */}
+      {/* <EmpList/> */}
+       
+      {/* <Card className="A">
       <Row>
         <Col md={4}>
         <h1>LOW</h1>
@@ -31,8 +37,8 @@ function App() {
           </Col>
                  
       </Row>
-      </Card>
-      <AudioPlayer/> */}
+      </Card> */} 
+      {/* <Layout/>~ */}
       {/* <EMICalc/> */}
     </div>
   );

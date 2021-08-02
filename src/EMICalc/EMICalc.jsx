@@ -1,15 +1,23 @@
 import React, { useState } from "react";
 import { Form, Card, Button, Row, Col } from "react-bootstrap";
 import "./EMICalc.css";
+
 export const EMICalc = () => {
   const [p, setP] = useState(0);
+
   const [n, setN] = useState(0);
+
   const [r, setR] = useState(0);
+
   const [emi, setEmi] = useState(0);
+
   const handleCalEMI = () => {
     const si = (p * n * r) / 100;
+
     const repayAmount = Number(p) + Number(si);
+
     const emiLocal = repayAmount / (n * 12);
+
     setEmi(emiLocal);
   };
   return (

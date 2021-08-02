@@ -4,7 +4,7 @@ import { useState } from "react";
 import { LayoutReducer } from "./LayoutReducer";
 
 export const Layout = () => {
-  const { Firstname, LastName, LineNo1, LineNo2, City } = LayoutReducer.Data[0];
+  const { Firstname, LastName, LineNo1, LineNo2 } = LayoutReducer.Data[0];
   const [fname, setFname] = useState(Firstname);
   const [lname, setLname] = useState(LastName);
   const [Line1, setLineNo1] = useState(LineNo1);
@@ -23,7 +23,7 @@ export const Layout = () => {
                 <br />
                 <Form.Control
                   type="text"
-                  placeholder="First Name"
+                  placeholder="FirstName"
                   onChange={(e) => setFname(e.target.value)}
                   value={fname}
                 />
@@ -33,7 +33,7 @@ export const Layout = () => {
                 <br />
                 <Form.Control
                   type="text"
-                  placeholder="Last  Name"
+                  placeholder="LastName"
                   onChange={(e) => setLname(e.target.value)}
                   value={lname}
                 />
@@ -82,8 +82,9 @@ export const Layout = () => {
                     width="200px"
                   />
                   <Col>
-                    <h4>{`${fname} ${lname},`}</h4>
+                    <h4>{`${fname}`}</h4>
                   </Col>
+                  <Col>{`${lname}`}</Col>
                 </Row>
                 <Row>
                   <Col>{`${Line1},`}</Col>

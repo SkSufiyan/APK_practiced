@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Card, Col, Row, Form } from "react-bootstrap";
 import { EmpItem } from "./EmpItem";
 import "./EmpList.css";
-import { Cources } from "../Renders/Cources";
+import { Cources } from "../Reducers/Cources";
 
 export const EmpList = () => {
   const [empArr, setEmpArr] = useState(Cources.Data);

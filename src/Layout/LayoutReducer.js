@@ -1,9 +1,9 @@
 export const  LayoutReducer = {
     Data: [{
-        FisrtName:'',
-        LastName:'',
-        LineNo1: '',
-        LineNo2: '',
+        FirstName:'Sk',
+        LastName:'Sufiyan',
+        LineNo1: 'A',
+        LineNo2: 'B',
     }
     ]
 } 

@@ -4,9 +4,11 @@ import "./Audioplyer.css";
 
 export const AudioPlayer = () => {
   const audio = new Audio("new.mp3");
+
   const handleAudioPlay = () => {
     audio.play();
   };
+
   const handleAudiopause = () => {
     audio.pause();
   };
@@ -14,7 +16,6 @@ export const AudioPlayer = () => {
   return (
     <Card className="player">
       <Row>
-        <Col></Col>
         <Col>
           <Button onClick={handleAudioPlay}>Play</Button>
         </Col>
