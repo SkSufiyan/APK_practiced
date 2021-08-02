@@ -1,6 +1,6 @@
 import React from "react";
-import { Card } from "react-bootstrap";
-export const Sample = () => {
+import { Card, Button } from "react-bootstrap";
+export const L5 = () => {
   return (
     <Card style={{ width: "18rem" }}>
       <Card.Img variant="top" src="holder.js/100px180" />

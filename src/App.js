@@ -10,7 +10,7 @@ import './App.css';
 // import {AudioPlayer} from "../src/Codepaino/AudioPlayer"
 // import {Counter } from "./Component/Counter"
 // import {EmpList} from "./ReducerEmployee/EmpList"
-import {Tabsmanger} from "./Tabs manager/Tabsmanger"
+import {Tabsmanger} from "./Tabsmanager/Tabsmanger"
 function App() {
   return (
     <div  className="APP">
