@@ -1,8 +1,8 @@
 import React from "react";
 import { Tab, Tabs } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { L2 } from "./Section1/L2";
-import { L5 } from "./Section1/L5";
+import { L2 } from "../Section1/L2";
+import { L5 } from "../Section1/L5";
 export const Tabsmanger = () => {
   return (
     <Tabs
