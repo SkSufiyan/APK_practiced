@@ -1,0 +1,15 @@
+.dictionary {
+  margin: 30px;
+  padding: 30px;
+  background-color: burlywood !important;
+}
+.LeftContent {
+  padding: 10px;
+  margin: 10px;
+  background-color: cadetblue !important;
+}
+.RightContent {
+  padding: 10px;
+  margin: 10px;
+  background-color: cadetblue !important;
+}

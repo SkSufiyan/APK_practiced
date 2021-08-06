@@ -1,8 +1,15 @@
 import React, { useState } from "react";
 import { Button, Row, Col } from "react-bootstrap";
+import axios from "axios";
 
 export const Counter = () => {
   const [cntr, setCntr] = useState(0);
+  const [name, setName] = useState("asynway");
+  const handleApi = () => {
+    axios.get("http://localhost:4000").then((res) => {
+      console.log(res.data);
+    });
+  };
   return (
     <div>
       <Row>
@@ -24,6 +31,9 @@ export const Counter = () => {
           >
             +
           </Button>
+        </Col>
+        <Col>
+          <Button onClick={handleApi}>Call my Api</Button>
         </Col>
       </Row>
     </div>

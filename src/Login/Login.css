@@ -1,0 +1,16 @@
+.Login {
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: crimson !important;
+  align-items: center;
+  width: 500px;
+}
+.form-control {
+  background-color: wheat !important;
+  margin-top: 10px;
+}
+.Login Button {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}

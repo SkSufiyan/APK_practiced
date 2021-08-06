@@ -1,0 +1,12 @@
+.clock {
+  margin: 10px;
+  padding: 10px;
+  background-color: teal !important;
+  text-align: center;
+  border-radius: 1000px 0 1000px 0;
+  border: groove;
+}
+.clock span {
+  color: violet;
+  font-size: 50px;
+}
