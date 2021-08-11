@@ -22,12 +22,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import  {S} from  "./CardsCar/S"
 // import {Clock} from "./CLock/Clock"
 // import {Dictonary} from "./E-Dictonary/Dictonary"
-import {Home} from"./EDictonary/Home"
-
+// import {Home} from"./EDictonary/Home"
+import {Childpaino} from "./Codepaino/Childpiano"
 function App() {
   return (
     <div  className="APP">
-      <Home/>
+      <Childpaino/>
+      {/* <Home/> */}
       {/* <Dictonary/> */}
       {/* <S/>  */}
       {/* <Clock/> */}

@@ -6,6 +6,7 @@ export const Meaninglist = () => {
     <Card className="meaning">
       <span>Meaning</span>
       <h3>this is meaning </h3>
+      <h3>this is meaning </h3>
     </Card>
   );
 };

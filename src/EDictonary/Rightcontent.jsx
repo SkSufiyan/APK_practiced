@@ -11,10 +11,10 @@ export const Rightcontent = () => {
     <div>
       <Card>
         <InputGroup>
-          <InputGroup.Text>Synonys</InputGroup.Text>
+          <InputGroup.Text>Synonym</InputGroup.Text>
           <FormControl placeholder="Enter Words" />
         </InputGroup>
-        <ProgressBar now={80} />
+        <ProgressBar now={100} />
       </Card>
     </div>
   );

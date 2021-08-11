@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   Card,
   InputGroup,
@@ -26,7 +25,7 @@ export const L = () => {
         <InputGroup.Text>With textarea</InputGroup.Text>
         <FormControl as="textarea" aria-label="With textarea" />
       </InputGroup>
-      <ProgressBar now={60} />
+      <ProgressBar now={100} />
     </Card>
   );
 };

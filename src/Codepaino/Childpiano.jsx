@@ -1,8 +1,9 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+
 export const Childpaino = () => {
-  const handlePlay = (bit) => {
-    const audio = new Audio(`Mp3./${bit}.mp3`);
+  const handlePlay = () => {
+    const audio = new Audio("new.mp3");
     audio.play();
   };
   document.addEventListener("keydown", (e) => {

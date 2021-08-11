@@ -9,7 +9,7 @@ export const CourcesRenders =(item) => {
                  <tr> {
                      CourcesRenders.Data.map((item) => (
                          <td>
-                            {/* <Course CourseName={item.CourseName}instituteName={item.instituteName}contact={item.contact}City={item.City}/> */}
+                            <Course CourseName={item.CourseName}instituteName={item.instituteName}contact={item.contact}City={item.City}/>
                         </td>
                      ))}
                  </tr>
