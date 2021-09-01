@@ -1,12 +1,15 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import { Meaning } from "./Meaning";
-export const Meaninglist = () => {
+import "./Dict.css";
+
+export const Meaninglist = ({ item }) => {
   return (
     <Card className="meaning">
-      <span>Meaning</span>
-      <h3>this is meaning </h3>
-      <h3>this is meaning </h3>
+      <h2>Meaning List</h2>
+      {item.meanings.map((m) => (
+        <Meaning m={m} />
+      ))}
     </Card>
   );
 };

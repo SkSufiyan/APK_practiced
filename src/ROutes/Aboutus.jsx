@@ -8,7 +8,6 @@ export const Aboutus = () => {
       <Carousel>
         <Carousel.Item>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -21,7 +20,7 @@ export const Aboutus = () => {
         </Carousel.Item>
         <Carousel.Item>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            {/* <Card.Img variant="top" src="holder.js/100p */}
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -34,7 +33,7 @@ export const Aboutus = () => {
         </Carousel.Item>
         <Carousel.Item>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>

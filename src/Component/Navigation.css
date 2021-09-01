@@ -1,0 +1,8 @@
+.B {
+  display: flex;
+  margin-left: 50px;
+}
+a {
+  margin-left: 40px;
+  text-decoration: none;
+}
