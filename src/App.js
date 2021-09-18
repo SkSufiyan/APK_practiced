@@ -1,27 +1,28 @@
 // import { CourseInfo } from './Component/CourseInfo';
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Login } from "./ROutes/Login/Login";
-import { NavigationBar } from "./Component/NavigationBar";
-import { Home } from "./ROutes/Home";
-import { Services } from "./ROutes/Services";
-import { Aboutus } from "./ROutes/Aboutus";
-import { COntactus } from "./ROutes/COntactus";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
-// import { Dict } from "../src/Dictionary/Home";
-
+// import { Login } from "./ROutes/Login/Login";
+// import { NavigationBar } from "./Component/NavigationBar";
+// import { Home } from "./ROutes/Home";
+// import { Services } from "./ROutes/Services";
+// import { Aboutus } from "./ROutes/Aboutus";
+// import { COntactus } from "./ROutes/COntactus";
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// import { Counter } from "./Component/Counter";
+// import { Home } from "./Dictionary/Home";
+import { Clock } from "./Clock/Clock";
 // import { DynamicCOmp } from "../src/Component/DynamicCOmp";
 function App() {
   return (
     <div className="APP">
       {/* <DynamicCOmp /> */}
-      {/* {/* <Dict /> */}
+      {/* <Home /> */}
+      <Clock />
+      {/* <Counter /> */}
+      {/* <Router>
+        <NavigationBar /> */}
 
-      <Router>
-        <NavigationBar />
-
-        <Switch>
+      {/* <Switch>
           <div>
             <Route path="/Home">
               <Home />
@@ -41,7 +42,7 @@ function App() {
             </Route>
           </div>
         </Switch>
-      </Router>
+      </Router> */}
     </div>
   );
 }
